@@ -22,7 +22,7 @@ defmodule Cs491WebsiteWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  scope "/api", StoreManagementWeb do
+  scope "/api", Cs491WebsiteWeb do
     pipe_through :api
     get "/employees", EmployeeApiController, :index
   end

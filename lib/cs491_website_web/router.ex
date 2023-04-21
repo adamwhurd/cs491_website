@@ -18,12 +18,11 @@ defmodule Cs491WebsiteWeb.Router do
   scope "/", Cs491WebsiteWeb do
     pipe_through :browser
     resources "/employees", EmployeeController
-
     get "/", PageController, :home
   end
 
   # Other scopes may use custom stacks.
-  scope "/api", Cs491WebsiteWeb do
+  scope "/api", StoreManagementWeb do
     pipe_through :api
     get "/employees", EmployeeApiController, :index
   end

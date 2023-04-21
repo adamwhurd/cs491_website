@@ -15,6 +15,7 @@
           'Elixir.Cs491Website.Mailer','Elixir.Cs491Website.Repo',
           'Elixir.Cs491WebsiteWeb','Elixir.Cs491WebsiteWeb.CoreComponents',
           'Elixir.Cs491WebsiteWeb.EmployeeApiController',
+          'Elixir.Cs491WebsiteWeb.EmployeeApiJSON',
           'Elixir.Cs491WebsiteWeb.EmployeeController',
           'Elixir.Cs491WebsiteWeb.EmployeeHTML',
           'Elixir.Cs491WebsiteWeb.Endpoint',
